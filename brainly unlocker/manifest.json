@@ -1,0 +1,21 @@
+{
+  "name": "Brainly Unlocker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Unlocks brainly answers :flushed:",
+  "homepage_url": "https://github.com/ModernFeelGames",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Unlock Answers!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
